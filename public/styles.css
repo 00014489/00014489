@@ -1,0 +1,155 @@
+html{
+    font-size: 18px;
+    color: #444;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 1px solid #ccc;
+    padding: 12px;
+}
+
+.info{
+    padding: 10px;
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.nav a{
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+a:hover{
+    color: blue;
+}
+
+/*Homepage Styles*/
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 12px;
+}
+
+.title{
+    text-align: center;
+    padding: 10px;
+}
+
+.description{
+    text-align: center;
+    padding: 30px 0 30px;
+    margin: 0 auto;
+    border: 1px dotted black;
+    font-size: 1.2rem;
+    max-width: 60%;
+}
+
+.creating{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: cornflowerblue;
+    color: #ccc;
+    margin-left: 430px;
+}
+
+/*Creating page styles*/
+.form{
+    max-width: 60%;
+}
+
+.input{
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 1.3rem;
+    font-family: inherit;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.btn{
+    display: inline-block;
+    background: blue;
+    color: white;
+    font-size: 1.3rem;
+    border: none;
+    padding: 12px 20px;
+    font-family: inherit;
+}
+
+/*All medicines page style*/
+.medicine-wrapper{
+    max-width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+}
+
+.medicine{
+    font-size: 1.3rem;
+}
+
+.delete{
+    display: inline-block;
+    padding: 5px 12px;
+    background: brown;
+    color: antiquewhite;
+}
+
+.deleteInInfo{
+    padding: 12px 14px;
+    background: brown;
+    color: antiquewhite;
+}
+
+.update{
+    display: inline-block;
+    position: fixed;
+    margin-left: 410px;
+    padding: 5px 12px;
+    background: rgb(67, 182, 0);
+    color: antiquewhite;
+}
+
+.error{
+    display: inline-block;
+    padding: 12px;
+    border: 1px solid red;
+    font-size: 1.2rem;
+    color: red;
+}
+
+.success{
+    display: inline-block;
+    padding: 12px;
+    border: 1px solid green;
+    font-size: 1.2rem;
+    color: green;
+}
+
+.cancel{
+    display: inline-block;
+    padding: 16.5px 28px;
+    background-color: rgb(243, 14, 14);
+    color: #ccc;
+    margin-left: 25px;
+}

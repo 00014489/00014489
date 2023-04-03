@@ -1,0 +1,14 @@
+extends layout.pug 
+
+block content
+    div.container
+        h1 All Medicines
+        
+        if deleted
+            p.success Deleted
+        
+        each medicine in Medicines
+            div.medicine-wrapper
+                a.medicine(href=`/Medicines/${medicine.id}`) #{ medicine.Name }
+                a.update(href=`/${ medicine.id }/Update`) Update
+                a.delete(href=`/${ medicine.id }/delete`) Delete

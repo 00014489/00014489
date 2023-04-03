@@ -1,0 +1,7 @@
+extends layout.pug
+
+block content
+    div.container
+        h1.title #{ medicine.Name }
+        p.description #{ medicine.Description }
+        a.deleteInInfo(href=`/${ medicine.id }/delete`) Delete

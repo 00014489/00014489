@@ -1,0 +1,23 @@
+extends layout.pug
+
+block content 
+    div.container 
+        h1 Create
+
+        if error 
+            p.error Please! Try again!
+
+        if success
+            p.success Saved!
+
+        form.form(action="/create" method='POST')
+
+            label Name
+            input.input(type="text" name= 'Name')
+
+            label Description
+            textarea.input(type='text' name = 'Description')
+
+            button.btn Create
+
+            a.cancel(href="/home") Cancel
