@@ -1,23 +1,26 @@
 # Medicine Registry web application
 
-### This web application allows users to create, edit, detile medicines.
+### This web application allows users to create, edit, detile medicine
+
+## I pushed my project to the GitHub from the account of my friend because of not having personal computer.
 
 To run this project locally you must follow the spets below:
 
 1. Clone this reposotory 
 ```bash
-git clone [repository link]
+git clone https://github.com/00014489/00014489.git 
 ```
 
 2. Install dependecies
 ```bash
-cd [project folder]
-npm install
+cd 00014489
+npm install pug
+npm install express
 ```
 
 3. Run the project
 ```bash
-medicine app
+node app
 ```
 
 ### Dependencies
@@ -25,4 +28,4 @@ medicine app
 - pug.js
 
 ### Link to GitHub
-[link]
+[link to github repository](https://github.com/00014489/00014489)
